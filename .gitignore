@@ -1,0 +1,87 @@
+# ===== 编辑器 / IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== 虚拟环境 / 包管理 =====
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.eggs/
+
+# ===== uv 特有 =====
+# 注意:uv.lock 不忽略,应用项目建议提交锁文件保证依赖可复现
+
+# ===== 测试 / 覆盖率 =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+.coverage.*
+
+# ===== 日志 / 临时文件 =====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+config/credentials.json
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 数据文件（视项目情况可选）=====
+# *.csv
+# *.parquet
+# *.xlsx
